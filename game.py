@@ -17,7 +17,7 @@ def mushroom_color(hp):
 
 def on_segment_hit(segment, score):
     """Called whenever a centipede segment is shot; add sparkles, sounds, or bonus points here."""
-    pass
+    print(f"segment hit at ({segment.row}, {segment.col}) -> score {score}")
 
 
 def wave_speed_bonus(wave):
